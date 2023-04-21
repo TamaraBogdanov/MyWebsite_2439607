@@ -7,7 +7,7 @@
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg);
+    url(BackgroundImages/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -237,19 +237,19 @@
 
 .parabox {
   padding: 3%;
-  background-image: url(samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+  background-image: url(BackgroundImages/samantha-gades-BlIhVfXbi9s-unsplash.jpg);
   background-size: cover;
 }
 
 .parabox2 {
   padding: 3%;
-  background-image: url(bench-accounting-nvzvOPQW0gc-unsplash.jpg);
+  background-image: url(BackgroundImages/screen.png);
   background-size: cover;
 }
 
 .parabox3 {
   padding: 3%;
-  background-image: url(mathieu-perrier-44OaWM_ObWk-unsplash.jpg);
+  background-image: url(BackgroundImages/mathieu-perrier-44OaWM_ObWk-unsplash.jpg);
   background-size: cover;
 }
 
@@ -263,13 +263,13 @@
 
 .parabox4 {
   padding: 3%;
-  background-image: url(hutomo-abrianto-X5BWooeO4Cw-unsplash.jpg);
+  background-image: url(BackgroundImages/hutomo-abrianto-X5BWooeO4Cw-unsplash.jpg);
   background-size: cover;
 }
 
 .parabox7 {
   padding: 3%;
-  background-image: url(img.png);
+  background-image: url(BackgroundImages/img.png);
   background-size: cover;
 }
 
@@ -421,7 +421,7 @@
 .DesignDocStyle {
   margin-top: 70px;
   text-align: center;
-  background-image: url(jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+  background-image: url(BackgroundImages/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
   background-size: cover;
 }
 
