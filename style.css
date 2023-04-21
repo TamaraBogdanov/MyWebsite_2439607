@@ -1,0 +1,486 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  margin: 0 0 0 -80;
+}
+
+.nav {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 0 20px 10px;
+  font-size: 25px;
+  position: relative;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.nav ul li:hover:after {
+  width: 100%;
+}
+
+.body {
+  width: 100%;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.body h1 {
+  font-size: 60px;
+  margin-top: 70px;
+  font-family: sans-serif;
+}
+
+.body p {
+  margin: 20px;
+  font-weight: 100;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+
+.buttons ul li {
+  display: inline-block;
+  font-size: 30px;
+  margin: 60 20;
+  list-style-type: none;
+  text-align: center;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.buttons a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #009688;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.head2 {
+  color: #009688;
+}
+
+.aboutme {
+  margin: 90px 40px 40px 50px;
+  line-height: 25px;
+}
+
+.aboutme h1 {
+  color: #009688;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.aboutme p {
+  color: #fff;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.Myself {
+  max-width: 320px;
+  float: right;
+}
+
+.wrapIMG {
+  margin: 90px auto;
+  width: 70%;
+}
+
+.MyWorks {
+  margin: 90px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+  margin-left: 80px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+  margin-left: 200px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.WorkContainer {
+  background-color: #009688;
+  box-sizing: border-box;
+}
+
+.BlogIntro {
+  margin: 90px 40px 40px 50px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.BlogIntro h1 {
+  color: #009688;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.BlogIntro p {
+  color: #fff;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.Weeks {
+  font-size: 30px;
+  margin: 150 100;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: #009688;
+}
+
+.Weeks ul li {
+  display: inline-block;
+  list-style-type: none;
+
+  margin: 0 20px 10px;
+  font-size: 50px;
+  position: relative;
+}
+
+.Weeks ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Weeks ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.Weeks ul li:hover:after {
+  width: 100%;
+}
+
+.Week1Blog h1 {
+  font-size: 40px;
+  margin-top: 70px;
+  font-family: sans-serif;
+  color: #009688;
+  margin: 20px;
+  text-align: center;
+}
+
+.Week1Blog p {
+  font-weight: 100;
+  line-height: 25px;
+  font-family: sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.parabox {
+  padding: 3%;
+  background-image: url(samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+  background-size: cover;
+}
+
+.parabox2 {
+  padding: 3%;
+  background-image: url(bench-accounting-nvzvOPQW0gc-unsplash.jpg);
+  background-size: cover;
+}
+
+.parabox3 {
+  padding: 3%;
+  background-image: url(mathieu-perrier-44OaWM_ObWk-unsplash.jpg);
+  background-size: cover;
+}
+
+.websitetutPIC {
+  height: 30%;
+  width: 30%;
+  opacity: 0.85;
+  float: right;
+  padding: 0 20px 20px 0;
+}
+
+.parabox4 {
+  padding: 3%;
+  background-image: url(hutomo-abrianto-X5BWooeO4Cw-unsplash.jpg);
+  background-size: cover;
+}
+
+.parabox7 {
+  padding: 3%;
+  background-image: url(img.png);
+  background-size: cover;
+}
+
+.DesignDoc {
+  margin: 90px 40px 40px 50px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.DesignDoc h1 {
+  color: #009688;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.DesignDoc p {
+  color: #fff;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.designsections {
+  font-size: 30px;
+  margin: 150 100;
+  cursor: pointer;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: #009688;
+}
+
+.designsections ul li {
+  display: inline-block;
+  list-style-type: none;
+
+  margin: 0 20px 10px;
+  font-size: 50px;
+  position: relative;
+}
+
+.designsections ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.designsections ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.designsections ul li:hover:after {
+  width: 100%;
+}
+
+.Wireframes h1 {
+  font-size: 60px;
+  margin-top: 80px;
+  font-family: sans-serif;
+  color: #009688;
+  margin: 20px 20px -50px 40px;
+  text-align: center;
+}
+
+.WorkContainer h2 {
+  font-size: 50px;
+  margin-top: 70px;
+  font-family: sans-serif;
+
+  padding: 2%;
+  text-align: center;
+}
+
+.HomepageWireframe {
+  line-height: 25px;
+  text-align: center;
+}
+
+.HomepageWireframe h1 {
+  margin: 70px 30px 30px 40px;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.firstIT {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 50px 30px 30px 40px;
+}
+
+.firstIT ul li {
+  margin-left: 40%;
+}
+
+.HomepageWireframe p {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 60px 50px 50px 70px;
+  background-color: #009687a3;
+  padding: 2%;
+}
+
+.column3 {
+  float: left;
+  width: 40%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+  margin-left: 80px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.column4 {
+  float: left;
+  width: 43%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+  margin-left: 100px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.Contacts {
+  text-align: center;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.Contacts h1 {
+  font-size: 50px;
+  color: #009688;
+}
+
+.Contacts h2 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.emails {
+  font-size: 30px;
+  color: #fff;
+}
+
+.DesignDocStyle {
+  margin-top: 70px;
+  text-align: center;
+  background-image: url(jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+  background-size: cover;
+}
+
+.DesignDocStyle h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  padding: 2%;
+}
+
+.DesignDocStyle p {
+  font-size: 25px;
+  font-family: sans-serif;
+  padding: 3%;
+}
+
+.DDStyle {
+  color: #009688;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px 20px -50px 40px;
+}
+
+.FlowChart {
+  width: 70%;
+  padding: 15px 25px;
+  margin: 10px 15px;
+  margin-left: 230px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.Interactivity h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  padding: 2%;
+  text-align: center;
+  color: #009688;
+}
+
+.Interactivity p {
+  font-size: 25px;
+  font-family: sans-serif;
+  padding: 2%;
+  text-align: center;
+}
+
+.Referencing {
+  font-size: 25px;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Referencing ul li {
+  text-decoration: none;
+  text-align: center;
+}
+.Referencing ul li a {
+  text-decoration: none;
+  text-align: center;
+}
