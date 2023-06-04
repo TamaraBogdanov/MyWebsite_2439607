@@ -13,7 +13,8 @@
 }
 
 .logo {
-  margin: 0 0 0 -80;
+  margin: 1.5rem;
+  margin-left: -3rem;
 }
 
 .nav {
@@ -27,7 +28,7 @@
 
 .nav ul li {
   display: inline-block;
-  margin: 0 20px 10px;
+  margin: 1.5rem;
   font-size: 25px;
   position: relative;
 }
@@ -64,15 +65,14 @@
 
 .body h1 {
   font-size: 60px;
-  margin-top: 70px;
+  margin-top: 4rem;
   font-family: sans-serif;
 }
 
 .body p {
-  margin: 20px;
+  margin: 2rem;
   font-weight: 100;
   line-height: 25px;
-  font-family: sans-serif;
 }
 
 .buttons ul li {
@@ -106,23 +106,23 @@
 .aboutme h1 {
   color: #009688;
   font-size: 3rem;
-  line-height: 3rem;
+  line-height: 2rem;
   font-family: sans-serif;
 }
 
 .aboutme p {
   color: #fff;
   font-size: 25px;
+  margin-bottom: 2rem;
   line-height: 1.75rem;
   font-family: sans-serif;
-  margin-bottom: 5rem;
 }
 
 .aboutme h2 {
   color: #fff;
-  font-size: 28px;
+  font-size: 26px;
   font-family: sans-serif;
-  margin-bottom: 5rem;
+  margin: 4rem;
   text-align: center;
 }
 
@@ -137,14 +137,14 @@
   width: 70%;
 }
 
-.MyWorks {
+.myWorks {
   margin: 90px auto;
   text-align: center;
   font-family: sans-serif;
   background-color: white;
 }
 
-.MyWorks p {
+.myWorks p {
   font-size: 30px;
   margin-bottom: 2%;
 }
@@ -173,28 +173,35 @@
   clear: both;
 }
 
-.WorkContainer {
+.workContainer {
   background-color: #009688;
   box-sizing: border-box;
   margin-bottom: 3rem;
 }
+.workContainer h2 {
+  font-size: 50px;
+  margin-top: 2rem;
+  font-family: sans-serif;
+  padding: 2%;
+  text-align: center;
+}
 
-.WireframeDisplay {
+.wireframeDisplay {
   background-color: #009688;
 }
-.BlogIntro {
+.blogIntro {
   margin: 90px 40px 40px 50px;
   line-height: 25px;
   text-align: center;
 }
 
-.BlogIntro h1 {
+.blogIntro h1 {
   color: #009688;
   font-size: 50px;
   font-family: sans-serif;
 }
 
-.BlogIntro p {
+.blogIntro p {
   color: #fff;
   font-size: 25px;
   font-family: sans-serif;
@@ -293,27 +300,27 @@
   background-size: cover;
 }
 
-.DesignDoc {
-  margin: 90px 40px 40px 50px;
+.designDoc {
+  margin: 3rem;
   line-height: 25px;
   text-align: center;
 }
 
-.DesignDoc h1 {
+.designDoc h1 {
   color: #009688;
   font-size: 50px;
   font-family: sans-serif;
 }
 
-.DesignDoc p {
+.designDoc p {
   color: #fff;
   font-size: 25px;
   font-family: sans-serif;
 }
 
-.designsections {
+.designSection {
   font-size: 30px;
-  margin: 150 100;
+  margin: 10rem;
   cursor: pointer;
   font-family: sans-serif;
   text-decoration: none;
@@ -321,7 +328,7 @@
   color: #009688;
 }
 
-.designsections ul li {
+.designSection ul li {
   display: inline-block;
   list-style-type: none;
 
@@ -330,12 +337,12 @@
   position: relative;
 }
 
-.designsections ul li a {
+.designSection ul li a {
   color: #fff;
   text-decoration: none;
 }
 
-.designsections ul li::after {
+.designSection ul li::after {
   content: "";
   height: 3px;
   width: 0;
@@ -346,11 +353,11 @@
   transition: 0.5s;
 }
 
-.designsections ul li:hover:after {
+.designSection ul li:hover:after {
   width: 100%;
 }
 
-.Wireframes h2 {
+.wireFrames h2 {
   font-size: 60px;
   margin-top: 2rem;
   font-family: sans-serif;
@@ -358,50 +365,40 @@
   text-align: center;
 }
 
-.WorkContainer h2 {
-  font-size: 50px;
-  margin-top: 70px;
-  font-family: sans-serif;
-  padding: 2%;
-  text-align: center;
-}
-
-.HomepageWireframe {
+.homepageWireframe {
   line-height: 25px;
   text-align: center;
+  margin: 5rem;
 }
 
-.HomepageWireframe h2 {
-  margin: 3rem;
+.homepageWireframe p {
+  font-size: 25px;
+  font-family: sans-serif;
+  background-color: #009687a3;
+  padding: 2%;
+}
+.homepageWireframe h2 {
+  margin: 5rem;
   font-size: 35px;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .firstIT {
   font-size: 25px;
   font-family: sans-serif;
-  margin: 50px 30px 30px 40px;
+  margin: 3rem;
 }
 
 .firstIT ul li {
   margin-left: 40%;
 }
 
-.HomepageWireframe p {
-  font-size: 25px;
-  font-family: sans-serif;
-
-  background-color: #009687a3;
-  padding: 2%;
-}
-
 .column3 {
   float: left;
   width: 40%;
-  padding: 15px 25px;
-
+  padding: 2rem;
   margin-left: 3rem;
-  box-sizing: border-box;
   border-radius: 25px;
 }
 
@@ -409,10 +406,10 @@
   float: right;
   width: 43%;
   height: 90%;
-  padding: 15px 25px;
+  padding: 2rem;
   margin-right: 3rem;
-  box-sizing: border-box;
   border-radius: 25px;
+  margin-bottom: 3rem;
 }
 
 .Contacts {
@@ -447,20 +444,20 @@
   margin-top: 7rem;
 }
 
-.DesignDocStyle {
-  margin-top: 70px;
+.designdocStyle {
+  margin-top: 2rem;
   text-align: center;
   background-image: url(BackgroundImages/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
   background-size: cover;
 }
 
-.DesignDocStyle h2 {
+.designdocStyle h2 {
   font-size: 50px;
   font-family: sans-serif;
   padding: 2%;
 }
 
-.DesignDocStyle p {
+.designdocStyle p {
   font-size: 25px;
   font-family: sans-serif;
   padding: 3%;
@@ -474,9 +471,9 @@
   margin: 20px 20px -50px 40px;
 }
 
-.FlowChart {
+.flowChart {
   width: 70%;
-  padding: 15px 25px;
+  padding: 2rem;
   margin-left: 12rem;
   box-sizing: border-box;
   border-radius: 20%;
@@ -497,18 +494,18 @@
   text-align: center;
 }
 
-.Referencing {
+.referencing {
   font-size: 25px;
   font-family: sans-serif;
   cursor: pointer;
   text-decoration: none;
 }
 
-.Referencing ul li {
+.referencing ul li {
   text-decoration: none;
   text-align: center;
 }
-.Referencing ul li a {
+.referencing ul li a {
   text-decoration: none;
   text-align: center;
 }
@@ -584,6 +581,26 @@
   font-size: 2.5rem;
 }
 
+.Essays h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: -2rem;
+}
+
+.Essays {
+  padding: 5rem;
+}
+.Essays p {
+  background-color: #fff;
+  padding: 5rem;
+  font-size: 18px;
+  font-family: sans-serif;
+  border-radius: 3%;
+  color: #0a4f48;
+  font-weight: 50%;
+}
 .accordion {
   width: 90%;
   max-width: 1000px;
@@ -633,6 +650,10 @@
   border-image: linear-gradient(to right, transparent, #0a4f48, transparent) 1;
 }
 
+.captions {
+  font-size: 30px;
+}
+
 @media (max-width: 767px) {
   html {
     font-size: 14px;
@@ -641,3 +662,234 @@
 /*.accordion-item-header.active + .accordion-item-body {
   display: block;
 } */
+
+@media screen and (max-width: 600px) {
+  .aboutme h1 {
+    font-size: 25px;
+    line-height: 1.5rem;
+  }
+
+  .aboutme p {
+    font-size: 14px;
+    line-height: 1rem;
+  }
+
+  .aboutme h2 {
+    font-size: 20px;
+    line-height: 2rem;
+  }
+
+  .nav ul li {
+    font-size: 12px;
+    margin: 1rem;
+  }
+
+  .logo {
+    margin: 1.5rem;
+    margin-left: -1rem;
+  }
+
+  .body h1 {
+    font-size: 25px;
+    margin-top: 2rem;
+  }
+
+  .body p {
+    margin: 1rem;
+    font-weight: 100;
+    line-height: 25px;
+  }
+
+  .body h2 {
+    font-size: 20px;
+  }
+
+  .buttons ul li {
+    display: inline-block;
+    font-size: 15px;
+    margin: 1rem;
+    list-style-type: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+
+  .myWorks p {
+    font-size: 20px;
+  }
+
+  .column {
+    width: 70%;
+    padding: 15px 25px;
+    margin-left: 3rem;
+    box-sizing: border-box;
+    border-radius: 25px;
+  }
+
+  .column2 {
+    width: 70%;
+    padding: 15px 25px;
+    margin-right: 5rem;
+    box-sizing: border-box;
+    border-radius: 25px;
+  }
+
+  .Essays {
+    padding: 1rem;
+  }
+  .Essays p {
+    background-color: #fff;
+    padding: 2rem;
+    font-size: 13px;
+    font-family: sans-serif;
+    border-radius: 0.5%;
+    color: #0a4f48;
+    font-weight: 50%;
+  }
+
+  .Contacts h1 {
+    font-size: 2rem;
+    color: #009688;
+  }
+
+  .Contacts h2 {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .emails {
+    font-size: 20px;
+
+    margin-top: -9rem;
+  }
+
+  .mycontacts {
+    font-size: 20px;
+    margin-top: 15rem;
+  }
+
+  .designDoc {
+    margin: 1rem;
+    line-height: 20px;
+    text-align: center;
+  }
+  .designDoc h1 {
+    font-size: 25px;
+  }
+
+  .designDoc p {
+    font-size: 16px;
+  }
+
+  .designSection {
+    font-size: 5px;
+    margin: 5rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: #009688;
+  }
+
+  .designSection ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1rem;
+    font-size: 20px;
+    position: relative;
+  }
+  .wireFrames h2 {
+    font-size: 25px;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    color: #009688;
+    text-align: center;
+  }
+  .workContainer {
+    background-color: #009688;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+  }
+
+  .workContainer h2 {
+    font-size: 25px;
+    margin-top: 2rem;
+    font-family: sans-serif;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .column3 {
+    width: 90%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+
+    border-radius: 25px;
+  }
+
+  .column4 {
+    width: 90%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+
+    border-radius: 25px;
+  }
+  .captions {
+    font-size: 18px;
+  }
+
+  .homepageWireframe {
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .homepageWireframe p {
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #009687a3;
+  }
+  .homepageWireframe h2 {
+    margin: 1rem;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  .firstIT {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 3rem;
+  }
+
+  .firstIT ul li {
+    margin-left: 30%;
+  }
+
+  .DDStyle {
+    font-size: 20px;
+  }
+
+  .designdocStyle h2 {
+    font-size: 20px;
+  }
+
+  .designdocStyle p {
+    font-size: 15px;
+  }
+
+  .referencing {
+    font-size: 15px;
+  }
+  .flowChart {
+    width: 100%;
+    padding: 2rem;
+    margin: 0.5rem;
+  }
+
+  .Interactivity h2 {
+    font-size: 25px;
+  }
+
+  .Interactivity p {
+    font-size: 15px;
+  }
+}
