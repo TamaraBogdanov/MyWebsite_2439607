@@ -384,6 +384,7 @@
   font-family: sans-serif;
   background-color: #009687a3;
   padding: 2%;
+  margin-bottom: 2rem;
 }
 .homepageWireframe h2 {
   margin: 5rem;
@@ -470,6 +471,7 @@
   font-size: 25px;
   font-family: sans-serif;
   padding: 3%;
+  margin-bottom: -2rem;
 }
 
 .DDStyle {
@@ -501,6 +503,7 @@
   font-family: sans-serif;
   padding: 2%;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .referencing {
@@ -603,14 +606,19 @@
   padding: 5rem;
   padding-top: 200px;
 }
-.essays p {
+
+.essayBG {
   background-color: #fff;
+  border-radius: 3%;
+}
+.essays p {
   padding: 5rem;
   font-size: 18px;
   font-family: sans-serif;
   border-radius: 3%;
   color: #0a4f48;
   font-weight: 50%;
+  margin-bottom: -8rem;
 }
 .accordion {
   width: 90%;
@@ -661,6 +669,9 @@
   border-image: linear-gradient(to right, transparent, #0a4f48, transparent) 1;
 }
 
+.accordion-item-body-content p {
+  margin-bottom: 2rem;
+}
 .captions {
   font-size: 30px;
 }
