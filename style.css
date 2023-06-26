@@ -337,6 +337,33 @@
   color: #009688;
 }
 
+.toTop {
+  background: #003a35;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.toTop p {
+  color: #fff;
+  font-size: 15px;
+}
+.toTop.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
 .designSection ul li {
   display: inline-block;
   list-style-type: none;
@@ -953,6 +980,34 @@
 
   .firstIT ul li {
     margin-left: 30%;
+  }
+
+  .toTop {
+    background: #003a35;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+  }
+
+  .toTop p {
+    color: #fff;
+    font-size: 15px;
+  }
+  .toTop.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
   }
 
   .DDStyle {
