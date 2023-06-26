@@ -6,13 +6,17 @@
     <meta name="description" content="Dev Website">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Tamara Bogdanov">
+    <meta http-equiv="X-UA-Compatible"  content="ie=edge">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="normalize.css" />
+    <script src="index.js" defer></script>
     <title>Tamara's Website</title>
   </head>
  
   <body>
+    <section>
     <div class="background">
+      
       <header class="h-card">
       <nav class="nav">
         <a href="index.html"><img src="Images/letter-t-64.png" alt="T Logo" class="logo" /></a>
@@ -27,6 +31,7 @@
       </nav>
     </header>
 
+    
       <main class="designDoc">
         <h1>My Design Doc</h1>
 
@@ -606,11 +611,18 @@
             I still have a lot of work to do in these aspects as my grouping and CSS can be very confusing.
         </p>
         
+        
         <p>In addition to this i have also added JS functions to completely restructure my blog posts section. I feel that i have used my functions well
           in creating an interactive accordion for the users to play around with. I was going to add JS functionality to my favbar, but i couldnt figure out a 
           way to do this without messing up my code so i have just decided to make the navbar fixed. That way when users scroll through long pages
           such as the design section and blog posts, they can opt out anytime they want.
 
+        </p>
+
+        <p>
+          Even though i have added a fixed Nav for my pages, i have also used javascript to create a button that appear as you scroll down the pages
+          . This button allows for the user to be brought back up to the top on click. It disappears as one scrolls up but appears on scroll down. Ive decided to add this not only for extra interactivity
+          but also for easier navigation. 
         </p>
 
         <p>
@@ -707,7 +719,11 @@
 
         </p>
       </article>
+    </section>
 
+      <a href="#" class="toTop"> 
+      
+        <p>Back</p></a>
 
   </body>
 </html>
