@@ -603,21 +603,56 @@
   margin-top: -2rem;
 }
 
+.scrollEssay {
+  background: #003a35;
+  width: 40%;
+  margin: 10% auto;
+  padding: 10px;
+  border-radius: 30px;
+  float: left;
+}
+
+.scrollEssay2 {
+  background: #003a35;
+  width: 40%;
+  margin: 10% auto;
+  padding: 10px;
+  border-radius: 30px;
+  float: right;
+}
+
+.scrollDiv {
+  width: 100%;
+  background: #0d655c;
+  height: 600px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scrollObject {
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.scrollObject h2 {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
 .essays {
   padding: 5rem;
   padding-top: 200px;
 }
 
-.essayBG {
-  background-color: #fff;
-  border-radius: 3%;
-}
 .essays p {
   padding: 5rem;
   font-size: 18px;
   font-family: sans-serif;
   border-radius: 3%;
-  color: #0a4f48;
+  color: #fff;
   font-weight: 50%;
   margin-bottom: -8rem;
 }
@@ -786,6 +821,36 @@
     font-size: 20px;
 
     margin-top: -9rem;
+  }
+
+  .scrollEssay {
+    background: #003a35;
+    width: 95%;
+    margin: 10% auto;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  .scrollEssay2 {
+    background: #003a35;
+    width: 95%;
+    margin: 10% auto;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  .scrollDiv {
+    width: 100%;
+    background: #0d655c;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .scrollObject {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
   }
 
   .mycontacts {
