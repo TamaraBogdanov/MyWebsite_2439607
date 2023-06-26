@@ -104,19 +104,19 @@
   color: #009688;
 }
 
-.aboutme {
+.aboutMe {
   line-height: 1.5rem;
   margin-top: -1.5rem;
 }
 
-.aboutme h1 {
+.aboutMe h1 {
   color: #009688;
   font-size: 3rem;
   line-height: 2rem;
   font-family: sans-serif;
 }
 
-.aboutme p {
+.aboutMe p {
   color: #fff;
   font-size: 25px;
   margin-bottom: 2rem;
@@ -124,7 +124,7 @@
   font-family: sans-serif;
 }
 
-.aboutme h2 {
+.aboutMe h2 {
   color: #fff;
   font-size: 26px;
   font-family: sans-serif;
